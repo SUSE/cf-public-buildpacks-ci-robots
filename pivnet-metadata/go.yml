@@ -1,1 +1,43 @@
 ---
+release:
+  version: Go 1.8.1
+  release_type: Minor Release
+  eula_slug: pivotal_software_eula
+  release_notes_url: https://github.com/cloudfoundry/go-buildpack/releases/tag/v1.8.1
+  availability: All Users
+  eccn: 5D002
+  license_exception: TSU
+product_files:
+- file: pivotal-buildpack-cached/go_buildpack-cached-v1.8.1+1492467822.zip
+  upload_as: Go Buildpack (offline)
+  description: |-
+    * Do not error if cache dir does not exist
+      (https://www.pivotaltracker.com/story/show/143527395)
+
+    * Add go 1.8.1
+      (https://www.pivotaltracker.com/story/show/143333553)
+
+    * Precompile uncached buildpack
+      Previously only the cached buildpack compiled
+      (https://www.pivotaltracker.com/story/show/143040749)
+
+
+    Packaged binaries:
+
+    | name  | version | cf_stacks  |
+    |-------|---------|------------|
+    | go    | 1.6.3   | cflinuxfs2 |
+    | go    | 1.6.4   | cflinuxfs2 |
+    | go    | 1.7.4   | cflinuxfs2 |
+    | go    | 1.7.5   | cflinuxfs2 |
+    | go    | 1.8.0   | cflinuxfs2 |
+    | go    | 1.8.1   | cflinuxfs2 |
+    | glide | v0.12.3 | cflinuxfs2 |
+    | godep | v79     | cflinuxfs2 |
+
+    Default binary versions:
+
+    | name | version |
+    |------|---------|
+    | go   | 1.7.5   |
+      * SHA256: 912cbf0da02a76cf3720ae219436dd4dccd1d76eb1b6027b4152b716b1a9cdbf
