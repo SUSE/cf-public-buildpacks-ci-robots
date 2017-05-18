@@ -36,3 +36,6 @@ glide:
 - version: v0.12.3
   sha256: a304c29267cf7e00b7299b6ac8da0317f2f4f4096acb6cf817d4c745e0dee8b4
   timestamp: 2017-05-17 22:35:38 UTC
+- version: v0.12.3
+  sha256: a304c29267cf7e00b7299b6ac8da0317f2f4f4096acb6cf817d4c745e0dee8b4
+  timestamp: 2017-05-18 23:15:03 UTC
