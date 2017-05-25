@@ -1,1 +1,33 @@
 ---
+release:
+  version: NodeJS 1.5.32
+  release_type: Minor Release
+  eula_slug: pivotal_software_eula
+  release_notes_url: https://github.com/cloudfoundry/nodejs-buildpack/releases/tag/v1.5.32
+  availability: All Users
+  eccn: 5D002
+  license_exception: TSU
+product_files:
+- file: pivotal-buildpack-cached/nodejs_buildpack-cached-v1.5.32+1495754140.zip
+  upload_as: NodeJS Buildpack (offline)
+  description: |-
+    * Add node 4.8.2, remove node 4.8.0
+      (https://www.pivotaltracker.com/story/show/143029841)
+
+    * Add node 6.10.2, remove node 6.10.0
+      (https://www.pivotaltracker.com/story/show/143029841)
+
+    * Add node 7.8.0, remove node 7.7.3
+      (https://www.pivotaltracker.com/story/show/142657575)
+
+
+    Packaged binaries:
+
+    bundler: command not found: buildpack-packager
+    Install missing gem executables with `bundle install`
+
+    Default binary versions:
+
+    bundler: command not found: buildpack-packager
+    Install missing gem executables with `bundle install`
+      * SHA256: 12e787f89f582cbcc0f723b7c8e22d745bfd601ebc98a11973ffc912f78d27a9
