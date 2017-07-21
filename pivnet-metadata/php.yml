@@ -1,1 +1,52 @@
 ---
+release:
+  version: PHP 4.3.31
+  release_type: Minor Release
+  eula_slug: pivotal_software_eula
+  release_notes_url: https://github.com/cloudfoundry/php-buildpack/releases/tag/v4.3.31
+  availability: All Users
+  eccn: 5D002
+  license_exception: TSU
+product_files:
+- file: pivotal-buildpack-cached/php_buildpack-cached-v4.3.31+1500678138.zip
+  upload_as: PHP Buildpack (offline)
+  description: |-
+    * Add nginx 1.11.12, remove nginx 1.11.10
+      (https://www.pivotaltracker.com/story/show/142401589)
+
+    * Add support for supply buildpacks
+      (https://www.pivotaltracker.com/story/show/141616657)
+
+    * Disable `opcache.validate_timestamps` by default.
+      (https://www.pivotaltracker.com/story/show/141889325)
+
+
+    Packaged binaries:
+
+    | name     | version   | cf_stacks  | modules                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+    |----------|-----------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | php      | 5.6.29    | cflinuxfs2 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, gearman, geoip, gettext, gmp, igbinary, imagick, imap, ioncube, ldap, lua, mailparse, mbstring, mcrypt, memcache, memcached, mongo, mongodb, msgpack, mssql, mysql, mysqli, opcache, openssl, pcntl, pdo, pdo_dblib, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, phpiredis, protobuf, protocolbuffers, pspell, rdkafka, readline, redis, snmp, soap, sockets, solr, suhosin, sundown, twig, xcache, xdebug, xhprof, xsl, yaf, zip, zlib |
+    | php      | 5.6.30    | opensuse42 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, geoip, gettext, gmp, igbinary, imagick, imap, ioncube, ldap, lua, mailparse, mbstring, mcrypt, memcache, memcached, mongo, mongodb, msgpack, mssql, mysql, mysqli, opcache, openssl, pcntl, pdo, pdo_dblib, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, phpiredis, protobuf, protocolbuffers, pspell, rdkafka, readline, redis, snmp, soap, sockets, solr, suhosin, sundown, twig, xcache, xdebug, xhprof, xsl, yaf, zip, zlib          |
+    | php      | 5.6.30    | cflinuxfs2 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, gearman, geoip, gettext, gmp, igbinary, imagick, imap, ioncube, ldap, lua, mailparse, mbstring, mcrypt, memcache, memcached, mongo, mongodb, msgpack, mssql, mysql, mysqli, opcache, openssl, pcntl, pdo, pdo_dblib, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, phpiredis, protobuf, protocolbuffers, pspell, rdkafka, readline, redis, snmp, soap, sockets, solr, suhosin, sundown, twig, xcache, xdebug, xhprof, xsl, yaf, zip, zlib |
+    | php      | 7.0.16    | cflinuxfs2 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, geoip, gettext, gmp, igbinary, imagick, imap, ioncube, ldap, lua, mailparse, mbstring, mcrypt, mongodb, msgpack, mysqli, opcache, openssl, pcntl, pdo, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, phpiredis, pspell, rdkafka, redis, snmp, soap, sockets, solr, xdebug, xsl, yaf, zip, zlib                                                                                                                                            |
+    | php      | 7.0.17    | cflinuxfs2 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, geoip, gettext, gmp, igbinary, imagick, imap, ioncube, ldap, lua, mailparse, mbstring, mcrypt, mongodb, msgpack, mysqli, opcache, openssl, pcntl, pdo, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phalcon, phpiredis, pspell, rdkafka, redis, snmp, soap, sockets, solr, xdebug, xsl, yaf, zip, zlib                                                                                                                                            |
+    | php      | 7.1.2     | opensuse42 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, geoip, gettext, gmp, igbinary, imagick, imap, ldap, lua, mailparse, mbstring, mcrypt, mongodb, msgpack, mysqli, opcache, openssl, pcntl, pdo, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phpiredis, pspell, rdkafka, redis, snmp, soap, sockets, solr, xdebug, xsl, yaf, zip, zlib                                                                                                                                                              |
+    | php      | 7.1.2     | cflinuxfs2 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, geoip, gettext, gmp, igbinary, imagick, imap, ldap, lua, mailparse, mbstring, mcrypt, mongodb, msgpack, mysqli, opcache, openssl, pcntl, pdo, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phpiredis, pspell, rdkafka, redis, snmp, soap, sockets, solr, xdebug, xsl, yaf, zip, zlib                                                                                                                                                              |
+    | php      | 7.1.3     | cflinuxfs2 | amqp, apcu, bz2, cassandra, curl, dba, exif, fileinfo, ftp, gd, geoip, gettext, gmp, igbinary, imagick, imap, ldap, lua, mailparse, mbstring, mcrypt, mongodb, msgpack, mysqli, opcache, openssl, pcntl, pdo, pdo_mysql, pdo_pgsql, pdo_sqlite, pgsql, phpiredis, pspell, rdkafka, redis, snmp, soap, sockets, solr, xdebug, xsl, yaf, zip, zlib                                                                                                                                                              |
+    | composer | 1.4.1     | opensuse42 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+    | httpd    | 2.4.25    | opensuse42 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+    | httpd    | 2.4.25    | cflinuxfs2 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+    | newrelic | 6.3.0.161 | cflinuxfs2 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+    | nginx    | 1.11.13   | cflinuxfs2 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+    | nginx    | 1.12.0    | opensuse42 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+
+    Default binary versions:
+
+    | name     | version   |
+    |----------|-----------|
+    | php      | 5.6.30    |
+    | composer | 1.4.1     |
+    | httpd    | 2.4.25    |
+    | newrelic | 6.3.0.161 |
+    | nginx    | 1.11.13   |
+      * SHA256: 3e9034253a728eb81dc82cda737956107a3b5da900ee5f4b42b48236379aba97
