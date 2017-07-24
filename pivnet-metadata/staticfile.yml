@@ -1,1 +1,29 @@
 ---
+release:
+  version: Staticfile 1.4.11
+  release_type: Minor Release
+  eula_slug: pivotal_software_eula
+  release_notes_url: https://github.com/cloudfoundry/staticfile-buildpack/releases/tag/v1.4.11
+  availability: All Users
+  eccn: 5D002
+  license_exception: TSU
+product_files:
+- file: pivotal-buildpack-cached/staticfile_buildpack-cached-v1.4.11+1500932990.zip
+  upload_as: Staticfile Buildpack (offline)
+  description: |-
+    * Add nginx 1.13.3, remove nginx 1.13.2
+      (https://www.pivotaltracker.com/story/show/148679499)
+
+
+    Packaged binaries:
+
+    | name  | version | cf_stacks  |
+    |-------|---------|------------|
+    | nginx | 1.13.3  | cflinuxfs2 |
+
+    Default binary versions:
+
+    | name  | version |
+    |-------|---------|
+    | nginx | 1.13.3  |
+      * SHA256: fc8028ecdac59d9f2e736d923e1273e36dcb8976308adbdb387e38b9f00e167c
