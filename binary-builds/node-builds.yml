@@ -1,6 +1,4 @@
 ---
 node:
-- version: 8.0.0
-  sha256: 28f2e0bd5f80ff83b244df670d577fe36c1e0f11561deee7d8bbdcbd4ead8fb2
 - version: 4.8.3
   sha256: f8a5b7fe246f8358121e057f26411d3be9657a328b146d74abf483a956702868
