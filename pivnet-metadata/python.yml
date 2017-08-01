@@ -1,21 +1,22 @@
 ---
 release:
-  version: Python 1.5.18
+  version: Python 1.5.19
   release_type: Minor Release
   eula_slug: pivotal_software_eula
-  release_notes_url: https://github.com/cloudfoundry/python-buildpack/releases/tag/v1.5.18
+  release_notes_url: https://github.com/cloudfoundry/python-buildpack/releases/tag/v1.5.19
   availability: All Users
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/python_buildpack-cached-v1.5.18+1492551620.zip
+- file: pivotal-buildpack-cached/python_buildpack-cached-v1.5.19+1501629891.zip
   upload_as: Python Buildpack (offline)
   description: |-
-    * Add python 3.6.1
-      (https://www.pivotaltracker.com/story/show/142309761)
+    * Support pre_compile and post_compile hooks when using Conda
+      (https://www.pivotaltracker.com/story/show/137634053)
 
-    * Add support for supply buildpacks
-      (https://www.pivotaltracker.com/story/show/141616657)
+    * Build python 2.7.x with ucs4 support
+      - ucs2 python 2.7.x versions are still included in the manifest
+      (https://www.pivotaltracker.com/story/show/140854911)
 
 
     Packaged binaries:
@@ -24,6 +25,7 @@ product_files:
     |-------------|---------|------------|
     | python      | 2.7.12  | cflinuxfs2 |
     | python      | 2.7.13  | cflinuxfs2 |
+    | python      | 2.7.13  | opensuse42 |
     | python      | 3.3.5   | cflinuxfs2 |
     | python      | 3.3.6   | cflinuxfs2 |
     | python      | 3.4.5   | cflinuxfs2 |
@@ -31,13 +33,24 @@ product_files:
     | python      | 3.5.2   | cflinuxfs2 |
     | python      | 3.5.3   | cflinuxfs2 |
     | python      | 3.6.0   | cflinuxfs2 |
+    | python      | 3.6.0   | opensuse42 |
     | python      | 3.6.1   | cflinuxfs2 |
     | libffi      | 3.2.1   | cflinuxfs2 |
     | libmemcache | 1.0.18  | cflinuxfs2 |
+    | pip         | 9.0.1   | cflinuxfs2 |
+    | pip-pop     | 0.1.1   | cflinuxfs2 |
+    | pipenv      | 4.0.1   | cflinuxfs2 |
+    | setuptools  | 32.1.0  | cflinuxfs2 |
 
     Default binary versions:
 
-    | name   | version |
-    |--------|---------|
-    | python | 2.7.13  |
-      * SHA256: 7ebdabbb19d53f9af57a9b95383d1baeb04dbcbd9e0ad36aafbf048092532418
+    | name        | version |
+    |-------------|---------|
+    | python      | 2.7.13  |
+    | libffi      | 3.2.1   |
+    | libmemcache | 1.0.18  |
+    | pip         | 9.0.1   |
+    | pip-pop     | 0.1.1   |
+    | pipenv      | 4.0.1   |
+    | setuptools  | 32.1.0  |
+      * SHA256: 1e366e2627ccaa237a67276d4c30c71935c131c027643fa68b2ad1ac3c0cca1c
