@@ -1,14 +1,14 @@
 ---
 release:
-  version: Ruby 1.6.38
+  version: Ruby 1.6.40
   release_type: Minor Release
   eula_slug: pivotal_software_eula
-  release_notes_url: https://github.com/cloudfoundry/ruby-buildpack/releases/tag/v1.6.38
+  release_notes_url: https://github.com/cloudfoundry/ruby-buildpack/releases/tag/v1.6.40
   availability: All Users
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.38+1500660942.zip
+- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1501627483.zip
   upload_as: Ruby Buildpack (offline)
   description: |-
     * Add node 4.8.2, remove node 4.8.1
@@ -39,24 +39,27 @@ product_files:
     | ruby              | 2.2.7                    | cflinuxfs2 |
     | ruby              | 2.3.3                    | cflinuxfs2 |
     | ruby              | 2.3.4                    | cflinuxfs2 |
-    | ruby              | 2.3.4                    | opensuse42 |
     | ruby              | 2.4.0                    | cflinuxfs2 |
     | ruby              | 2.4.1                    | cflinuxfs2 |
+    | ruby              | 2.4.1                    | opensuse42 |
     | jruby             | ruby-1.9.3-jruby-1.7.26  | cflinuxfs2 |
     | jruby             | ruby-2.0.0-jruby-1.7.26  | cflinuxfs2 |
-    | jruby             | ruby-2.3.1-jruby-9.1.8.0 | cflinuxfs2 |
-    | jruby             | ruby-2.3.1-jruby-9.1.8.0 | opensuse42 |
-    | node              | 4.8.2                    | cflinuxfs2 |
-    | node              | 6.10.2                   | cflinuxfs2 |
-    | bundler           | 1.14.6                   | cflinuxfs2 |
-    | bundler           | 1.14.6                   | opensuse42 |
-    | openjdk1.8-latest | 1.8.0_121                | cflinuxfs2 |
+    | jruby             | ruby-2.3.3-jruby-9.1.9.0 | cflinuxfs2 |
+    | jruby             | ruby-2.3.3-jruby-9.1.9.0 | opensuse42 |
+    | node              | 4.8.3                    | cflinuxfs2 |
+    | node              | 4.8.3                    | opensuse42 |
+    | node              | 6.10.2                   | opensuse42 |
+    | node              | 6.10.3                   | cflinuxfs2 |
+    | bundler           | 1.15.0                   | cflinuxfs2 |
+    | bundler           | 1.15.0                   | opensuse42 |
+    | openjdk1.8-latest | 1.8.0_131                | cflinuxfs2 |
+    | yarn              | 0.24.6                   | cflinuxfs2 |
     | yarn              | 0.24.6                   | opensuse42 |
 
     Default binary versions:
 
     | name | version |
     |------|---------|
-    | ruby | 2.3.4   |
+    | ruby | 2.4.1   |
     | yarn | 0.24.6  |
-      * SHA256: 79a1fde6eed9b5636ec1c6061b87f9f94161683c1e66dcbf4da964e5eeac56f4
+      * SHA256: d3e967e22dca555cd742b31fe5e57dd9d1761f387b87ca4d327eb6ce3492a36b
