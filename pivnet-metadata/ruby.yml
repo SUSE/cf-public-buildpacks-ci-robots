@@ -8,25 +8,20 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1501627483.zip
+- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1501899547.zip
   upload_as: Ruby Buildpack (offline)
   description: |-
-    * Add node 4.8.2, remove node 4.8.1
-      (https://www.pivotaltracker.com/story/show/143029841)
+    * Add bundler 1.15.0, remove bundler 1.14.6
+      (https://www.pivotaltracker.com/story/show/145768065)
 
-    * Add node 6.10.2, remove node 6.10.1
-      (https://www.pivotaltracker.com/story/show/143029841)
+    * Add yarn 0.24.6, remove yarn 0.24.4
+      (https://www.pivotaltracker.com/story/show/145961345)
 
-    * Add deprecation dates for ruby 2.1.x
-      See: https://www.ruby-lang.org/en/news/2017/04/01/support-of-ruby-2-1-has-ended/
+    * Add JRuby 9.1.9.0, Remove JRuby 9.1.8.0
+      (https://www.pivotaltracker.com/story/show/145548597)
 
-    * Add ruby 2.3.4, remove 2.3.2
-      (https://www.pivotaltracker.com/story/show/142590541)
-
-    * Add ruby 2.2.7, remove 2.2.5
-      (https://www.pivotaltracker.com/story/show/142579565)
-
-    * Add yarn 0.22.0, remove yarn 0.21.3
+    * Change default ruby version from 2.3.4 to 2.4.1
+      (https://www.pivotaltracker.com/story/show/143721855)
 
 
     Packaged binaries:
@@ -61,5 +56,4 @@ product_files:
     | name | version |
     |------|---------|
     | ruby | 2.4.1   |
-    | yarn | 0.24.6  |
-      * SHA256: d3e967e22dca555cd742b31fe5e57dd9d1761f387b87ca4d327eb6ce3492a36b
+      * SHA256: c9adfce886d0ac9bfd9ec2cfc93e3b8d699e5b7045138d88fefd9ff4605babb1
