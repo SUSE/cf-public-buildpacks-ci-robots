@@ -8,17 +8,11 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/nodejs_buildpack-cached-v1.5.36+1501623426.zip
+- file: pivotal-buildpack-cached/nodejs_buildpack-cached-v1.5.36+1502209623.zip
   upload_as: NodeJS Buildpack (offline)
   description: |-
-    * Add node 4.8.2, remove node 4.8.0
-      (https://www.pivotaltracker.com/story/show/143029841)
-
-    * Add node 6.10.2, remove node 6.10.0
-      (https://www.pivotaltracker.com/story/show/143029841)
-
-    * Add node 7.8.0, remove node 7.7.3
-      (https://www.pivotaltracker.com/story/show/142657575)
+    * Add node 8.0.0
+      (https://www.pivotaltracker.com/story/show/146317727)
 
 
     Packaged binaries:
@@ -45,5 +39,4 @@ product_files:
     | name | version |
     |------|---------|
     | node | 4.8.3   |
-    | yarn | 0.24.6  |
-      * SHA256: ebd1c30a6b8a3b28af1d7ffb90a29eb6f972ff90d7e9c5a5ec75651980532ad6
+      * SHA256: 73ba1a3b53152a573894b479c80ed43eba2982976953ada42e1795e4c422b03d
