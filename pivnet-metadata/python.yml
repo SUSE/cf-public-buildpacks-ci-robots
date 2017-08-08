@@ -8,15 +8,20 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/python_buildpack-cached-v1.5.19+1501696567.zip
+- file: pivotal-buildpack-cached/python_buildpack-cached-v1.5.19+1502200614.zip
   upload_as: Python Buildpack (offline)
   description: |-
-    * Support pre_compile and post_compile hooks when using Conda
-      (https://www.pivotaltracker.com/story/show/137634053)
+    * Add pipenv support
+      (https://www.pivotaltracker.com/story/show/141616409)
 
-    * Build python 2.7.x with ucs4 support
-      - ucs2 python 2.7.x versions are still included in the manifest
-      (https://www.pivotaltracker.com/story/show/140854911)
+    * Add miniconda 4.3.14, remove miniconda 4.3.11
+      (https://www.pivotaltracker.com/story/show/145532683)
+
+    * Add multi-buildpack support
+      (https://www.pivotaltracker.com/story/show/142852045)
+
+    * Remove ucs2 python 2.7.x versions
+      (https://www.pivotaltracker.com/story/show/137791203)
 
 
     Packaged binaries:
@@ -47,4 +52,4 @@ product_files:
     | pip-pop     | 0.1.1   |
     | pipenv      | 4.0.1   |
     | setuptools  | 32.1.0  |
-      * SHA256: f6736b1718b2956377d13dc617cd7c8c549fa76bbcdb19952f97ae62c07a2de7
+      * SHA256: 6b4f6e6f8527a8c42b06fa5135a3f4d9de8022ffd11039795f64be6421964ae7
