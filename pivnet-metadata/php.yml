@@ -8,17 +8,30 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/php_buildpack-cached-v4.3.34+1501617996.zip
+- file: pivotal-buildpack-cached/php_buildpack-cached-v4.3.34+1501907540.zip
   upload_as: PHP Buildpack (offline)
   description: |-
-    * Add nginx 1.11.12, remove nginx 1.11.10
-      (https://www.pivotaltracker.com/story/show/142401589)
+    * Updated the dynatrace agent download url
+      (https://www.pivotaltracker.com/story/show/146008405)
 
-    * Add support for supply buildpacks
-      (https://www.pivotaltracker.com/story/show/141616657)
+    * Bug fix: Ensure ordering of extensions. Composer must run last
+      (https://www.pivotaltracker.com/story/show/145511797)
 
-    * Disable `opcache.validate_timestamps` by default.
-      (https://www.pivotaltracker.com/story/show/141889325)
+    * Add Multi buildpack support
+      (https://www.pivotaltracker.com/story/show/142852347)
+
+    * Add EOL links to deprecation warnings
+      (https://www.pivotaltracker.com/story/show/144943203)
+
+    * Add php 7.0.19, 7.1.5 and Remove 7.0.17, 7.1.3
+      (https://www.pivotaltracker.com/story/show/145114047)
+      (https://www.pivotaltracker.com/story/show/145117193)
+
+    * Add nginx 1.13.1, 1.13.0
+      (https://www.pivotaltracker.com/story/show/146295321)
+
+    * Add composer 1.4.2, remove composer 1.4.1
+      (https://www.pivotaltracker.com/story/show/145579479)
 
 
     Packaged binaries:
@@ -53,4 +66,4 @@ product_files:
     | httpd    | 2.4.25    |
     | newrelic | 6.3.0.161 |
     | nginx    | 1.13.1    |
-      * SHA256: 886a92c8805c4526dd5b94ed7a0881189d9829fe4638f3b79889db9fab59e504
+      * SHA256: 739eb709ae42ecb0867011bb00b9330f85ad80619a63e3aa3ae58ecf47f7b7cf
