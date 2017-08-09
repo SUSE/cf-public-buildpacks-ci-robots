@@ -8,7 +8,7 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1501899547.zip
+- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1502314118.zip
   upload_as: Ruby Buildpack (offline)
   description: |-
     * Add bundler 1.15.0, remove bundler 1.14.6
@@ -56,4 +56,4 @@ product_files:
     | name | version |
     |------|---------|
     | ruby | 2.4.1   |
-      * SHA256: c9adfce886d0ac9bfd9ec2cfc93e3b8d699e5b7045138d88fefd9ff4605babb1
+      * SHA256: 1afca9b3155363f7677a7e6bc58e6426d2339340288384901ae1f44e46e5e708
