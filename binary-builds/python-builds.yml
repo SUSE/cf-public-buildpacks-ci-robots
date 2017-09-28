@@ -1,6 +1,4 @@
 ---
 python:
-- version: 3.4.6
-  sha256: fe59daced99549d1d452727c050ae486169e9716a890cffb0d468b376d916b48
 - version: 3.5.2
   sha256: 1524b840e42cf3b909e8f8df67c1724012c7dc7f9d076d4feef2d3eff031e8a0
