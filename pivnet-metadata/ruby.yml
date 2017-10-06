@@ -8,7 +8,7 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1502314118.zip
+- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.6.40+1506999262.zip
   upload_as: Ruby Buildpack (offline)
   description: |-
     * Add bundler 1.15.0, remove bundler 1.14.6
@@ -29,12 +29,19 @@ product_files:
     | name              | version                  | cf_stacks  |
     |-------------------|--------------------------|------------|
     | ruby              | 2.1.8                    | cflinuxfs2 |
+    | ruby              | 2.1.8                    | opensuse42 |
     | ruby              | 2.1.9                    | cflinuxfs2 |
+    | ruby              | 2.1.9                    | opensuse42 |
     | ruby              | 2.2.6                    | cflinuxfs2 |
+    | ruby              | 2.2.6                    | opensuse42 |
     | ruby              | 2.2.7                    | cflinuxfs2 |
+    | ruby              | 2.2.7                    | opensuse42 |
     | ruby              | 2.3.3                    | cflinuxfs2 |
+    | ruby              | 2.3.3                    | opensuse42 |
     | ruby              | 2.3.4                    | cflinuxfs2 |
+    | ruby              | 2.3.4                    | opensuse42 |
     | ruby              | 2.4.0                    | cflinuxfs2 |
+    | ruby              | 2.4.0                    | opensuse42 |
     | ruby              | 2.4.1                    | cflinuxfs2 |
     | ruby              | 2.4.1                    | opensuse42 |
     | jruby             | ruby-1.9.3-jruby-1.7.26  | cflinuxfs2 |
@@ -43,8 +50,8 @@ product_files:
     | jruby             | ruby-2.3.3-jruby-9.1.9.0 | opensuse42 |
     | node              | 4.8.3                    | cflinuxfs2 |
     | node              | 4.8.3                    | opensuse42 |
-    | node              | 6.10.2                   | opensuse42 |
     | node              | 6.10.3                   | cflinuxfs2 |
+    | node              | 6.10.3                   | opensuse42 |
     | bundler           | 1.15.0                   | cflinuxfs2 |
     | bundler           | 1.15.0                   | opensuse42 |
     | openjdk1.8-latest | 1.8.0_131                | cflinuxfs2 |
@@ -56,4 +63,5 @@ product_files:
     | name | version |
     |------|---------|
     | ruby | 2.4.1   |
-      * SHA256: 1afca9b3155363f7677a7e6bc58e6426d2339340288384901ae1f44e46e5e708
+    | yarn | 0.24.6  |
+      * SHA256: c4565b4e2672dae3ab6a15ac59d6610bad6ba4ee323a71b31be1caad7236417a
