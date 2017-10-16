@@ -1,7 +1,5 @@
 ---
 python:
-- version: 3.3.6
-  sha256: 0a58ad1f1def4ecc90b18b0c410a3a0e1a48cf7692c75d1f83d0af080e5d2034
 - version: 3.3.5
   sha256: 916bc57dd8524dc27429bebae7b39d6942742cf9699b875b2b496a3d960c7168
 - version: 2.7.12
