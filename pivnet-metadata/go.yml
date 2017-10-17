@@ -8,7 +8,7 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/go_buildpack-cached-v1.8.4+1506641972.zip
+- file: pivotal-buildpack-cached/go_buildpack-cached-v1.8.4+1508233707.zip
   upload_as: Go Buildpack (offline)
   description: |-
     * Add go1.8.3, remove go1.8.2
@@ -28,23 +28,31 @@ product_files:
     |-------|---------|------------|
     | go    | 1.6.3   | cflinuxfs2 |
     | go    | 1.6.3   | opensuse42 |
+    | go    | 1.6.3   | sle12      |
     | go    | 1.6.4   | cflinuxfs2 |
     | go    | 1.6.4   | opensuse42 |
+    | go    | 1.6.4   | sle12      |
     | go    | 1.7.5   | cflinuxfs2 |
     | go    | 1.7.5   | opensuse42 |
+    | go    | 1.7.5   | sle12      |
     | go    | 1.7.6   | cflinuxfs2 |
     | go    | 1.7.6   | opensuse42 |
+    | go    | 1.7.6   | sle12      |
     | go    | 1.8.1   | cflinuxfs2 |
     | go    | 1.8.1   | opensuse42 |
+    | go    | 1.8.1   | sle12      |
     | go    | 1.8.3   | cflinuxfs2 |
     | go    | 1.8.3   | opensuse42 |
+    | go    | 1.8.3   | sle12      |
     | glide | v0.12.3 | cflinuxfs2 |
     | glide | v0.12.3 | opensuse42 |
+    | glide | v0.12.3 | sle12      |
     | godep | v79     | opensuse42 |
+    | godep | v79     | sle12      |
 
     Default binary versions:
 
     | name | version |
     |------|---------|
     | go   | 1.8.3   |
-      * SHA256: 1cb1bc6a633b37ede25dbacb5e80c5bc0fcdc39219fee6201b28746313680e48
+      * SHA256: a0bdaecc46d488ecbf4d2d16be5049834cbe881c627f0b7d64a3a9b3bb543123
