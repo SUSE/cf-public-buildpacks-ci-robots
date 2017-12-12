@@ -252,3 +252,6 @@ node:
 - version: 6.12.0
   sha256: 05d31c82cabca32f2fe15a1a335899467796396efeca8bdcd5b86621fd2ee319
   timestamp: 2017-12-05 14:53:45 UTC
+- version: 4.8.5
+  sha256: 23980b1d31c6b0e05eff2102ffa0059a6f7a93e27e5288eb5551b9b003ec0c07
+  timestamp: 2017-12-12 10:37:28 UTC
