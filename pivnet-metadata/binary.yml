@@ -1,1 +1,29 @@
 ---
+release:
+  version: Binary 1.0.15
+  release_type: Minor Release
+  eula_slug: pivotal_software_eula
+  release_notes_url: https://github.com/cloudfoundry/binary-buildpack/releases/tag/v1.0.15
+  availability: All Users
+  eccn: 5D002
+  license_exception: TSU
+product_files:
+- file: pivotal-buildpack-cached/binary_buildpack-cached-v1.0.15+1513178954.zip
+  upload_as: Binary Buildpack (offline)
+  description: |
+    * Improve README
+
+    * Fix error while runing the integration test suite on newer cloudfoundry clusters
+      (https://www.pivotaltracker.com/story/show/151215179)
+
+
+    Packaged binaries:
+
+    | name | version | cf_stacks |
+    |------|---------|-----------|
+
+    Default binary versions:
+
+    | name | version |
+    |------|---------|
+      * Uncached buildpack SHA256: 0fd6af2baf90cb6d96e16d3ffdadd75a010593a9a808202ef48897a8d562ffce
