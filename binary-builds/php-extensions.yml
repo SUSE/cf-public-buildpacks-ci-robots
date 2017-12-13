@@ -104,10 +104,6 @@ extensions:
   version: 1.9.0
   md5: d7e82b73db69fbe265596c60f6b08ee9
   klass: AmqpPeclRecipe
-- name: ioncube
-  version: 6.0.9
-  md5: f6fa004a7473c96fe97769ad39741b35
-  klass: IonCubeRecipe
 - name: lua
   version: 1.1.0
   md5: 58bd532957473f2ac87f1032c4aa12b5
