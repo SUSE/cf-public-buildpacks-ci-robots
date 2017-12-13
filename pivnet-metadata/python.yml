@@ -1,83 +1,73 @@
 ---
 release:
-  version: Python 1.5.19
+  version: Python 1.6.4
   release_type: Minor Release
   eula_slug: pivotal_software_eula
-  release_notes_url: https://github.com/cloudfoundry/python-buildpack/releases/tag/v1.5.19
+  release_notes_url: https://github.com/cloudfoundry/python-buildpack/releases/tag/v1.6.4
   availability: All Users
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/python_buildpack-cached-v1.5.19+1508236176.zip
+- file: pivotal-buildpack-cached/python_buildpack-cached-v1.6.4+1513173426.zip
   upload_as: Python Buildpack (offline)
-  description: |-
-    * Add pipenv support
-      (https://www.pivotaltracker.com/story/show/141616409)
-
-    * Add miniconda 4.3.14, remove miniconda 4.3.11
-      (https://www.pivotaltracker.com/story/show/145532683)
-
-    * Add multi-buildpack support
-      (https://www.pivotaltracker.com/story/show/142852045)
-
-    * Remove ucs2 python 2.7.x versions
-      (https://www.pivotaltracker.com/story/show/137791203)
-
-
+  description: |
+    * Allows users to set specific "setuptools" version in requirements.txt
+      Add "--ignore-installed" to pip install
+      (https://www.pivotaltracker.com/story/show/152297106)
     Packaged binaries:
 
-    | name        | version | cf_stacks                   |
-    |-------------|---------|-----------------------------|
-    | python      | 2.7.12  | cflinuxfs2                  |
-    | python      | 2.7.12  | opensuse42                  |
-    | python      | 2.7.12  | sle12                       |
-    | python      | 2.7.13  | cflinuxfs2                  |
-    | python      | 2.7.13  | opensuse42                  |
-    | python      | 2.7.13  | sle12                       |
-    | python      | 3.3.5   | cflinuxfs2                  |
-    | python      | 3.3.5   | opensuse42                  |
-    | python      | 3.3.5   | sle12                       |
-    | python      | 3.3.6   | cflinuxfs2                  |
-    | python      | 3.3.6   | opensuse42                  |
-    | python      | 3.3.6   | sle12                       |
-    | python      | 3.4.5   | cflinuxfs2                  |
-    | python      | 3.4.5   | opensuse42                  |
-    | python      | 3.4.5   | sle12                       |
-    | python      | 3.4.6   | cflinuxfs2                  |
-    | python      | 3.4.6   | opensuse42                  |
-    | python      | 3.4.6   | sle12                       |
-    | python      | 3.5.2   | cflinuxfs2                  |
-    | python      | 3.5.2   | opensuse42                  |
-    | python      | 3.5.2   | sle12                       |
-    | python      | 3.5.3   | cflinuxfs2                  |
-    | python      | 3.5.3   | opensuse42                  |
-    | python      | 3.5.3   | sle12                       |
-    | python      | 3.6.0   | cflinuxfs2                  |
-    | python      | 3.6.0   | opensuse42                  |
-    | python      | 3.6.0   | sle12                       |
-    | python      | 3.6.1   | cflinuxfs2                  |
-    | python      | 3.6.1   | opensuse42                  |
-    | python      | 3.6.1   | sle12                       |
-    | libffi      | 3.2.1   | cflinuxfs2                  |
-    | libffi      | 3.2.1   | opensuse42                  |
-    | libffi      | 3.2.1   | sle12                       |
-    | libmemcache | 1.0.18  | cflinuxfs2                  |
-    | libmemcache | 1.0.18  | opensuse42                  |
-    | libmemcache | 1.0.18  | sle12                       |
-    | pip         | 9.0.1   | cflinuxfs2,opensuse42,sle12 |
-    | pip-pop     | 0.1.1   | cflinuxfs2,opensuse42,sle12 |
-    | pipenv      | 4.0.1   | cflinuxfs2,opensuse42,sle12 |
-    | setuptools  | 32.1.0  | cflinuxfs2,opensuse42,sle12 |
+    | name | version | cf_stacks |
+    |-|-|-|
+    | libffi | 3.2.1 | sle12 |
+    | libffi | 3.2.1 | opensuse42 |
+    | libffi | 3.2.1 | cflinuxfs2 |
+    | libmemcache | 1.0.18 | cflinuxfs2 |
+    | libmemcache | 1.0.18 | sle12 |
+    | libmemcache | 1.0.18 | opensuse42 |
+    | miniconda2 | 4.3.30 | cflinuxfs2, opensuse42, sle12 |
+    | miniconda3 | 4.3.30 | cflinuxfs2, opensuse42, sle12 |
+    | pip | 9.0.1 | cflinuxfs2, opensuse42, sle12 |
+    | pip-pop | 0.1.1 | cflinuxfs2, opensuse42, sle12 |
+    | pipenv | 8.3.2 | cflinuxfs2, opensuse42, sle12 |
+    | python | 2.7.13 | cflinuxfs2 |
+    | python | 2.7.13 | opensuse42 |
+    | python | 2.7.13 | sle12 |
+    | python | 2.7.14 | opensuse42 |
+    | python | 2.7.14 | sle12 |
+    | python | 2.7.14 | cflinuxfs2 |
+    | python | 3.3.6 | cflinuxfs2 |
+    | python | 3.3.6 | sle12 |
+    | python | 3.3.6 | opensuse42 |
+    | python | 3.3.7 | opensuse42 |
+    | python | 3.3.7 | cflinuxfs2 |
+    | python | 3.3.7 | sle12 |
+    | python | 3.4.6 | cflinuxfs2 |
+    | python | 3.4.6 | sle12 |
+    | python | 3.4.6 | opensuse42 |
+    | python | 3.4.7 | sle12 |
+    | python | 3.4.7 | opensuse42 |
+    | python | 3.4.7 | cflinuxfs2 |
+    | python | 3.5.3 | opensuse42 |
+    | python | 3.5.3 | cflinuxfs2 |
+    | python | 3.5.3 | sle12 |
+    | python | 3.5.4 | opensuse42 |
+    | python | 3.5.4 | sle12 |
+    | python | 3.5.4 | cflinuxfs2 |
+    | python | 3.6.1 | cflinuxfs2 |
+    | python | 3.6.1 | opensuse42 |
+    | python | 3.6.2 | cflinuxfs2 |
+    | python | 3.6.2 | opensuse42 |
+    | python | 3.6.2 | sle12 |
+    | python | 3.6.2 | sle12 |
+    | python | 3.6.3 | opensuse42 |
+    | python | 3.6.3 | sle12 |
+    | python | 3.6.3 | cflinuxfs2 |
+    | setuptools | 38.2.3 | cflinuxfs2, opensuse42, sle12 |
 
     Default binary versions:
 
-    | name        | version |
-    |-------------|---------|
-    | python      | 2.7.13  |
-    | libffi      | 3.2.1   |
-    | libmemcache | 1.0.18  |
-    | pip         | 9.0.1   |
-    | pip-pop     | 0.1.1   |
-    | pipenv      | 4.0.1   |
-    | setuptools  | 32.1.0  |
-      * SHA256: 5c9e8000070915507400e7fb5523526372061d7b7c6254603d17d563db84b915
+    | name | version |
+    |-|-|
+    | python | 2.7.14 |
+
+      * Uncached buildpack SHA256: d939e8553d3ba0e4d43ddbdcd59ca2b3a2afd055e5168f1cc457ab8628dd3dae
