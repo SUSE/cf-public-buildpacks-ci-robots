@@ -1,34 +1,37 @@
 ---
 release:
-  version: Staticfile 1.4.6
+  version: Staticfile 1.4.20
   release_type: Minor Release
   eula_slug: pivotal_software_eula
-  release_notes_url: https://github.com/cloudfoundry/staticfile-buildpack/releases/tag/v1.4.6
+  release_notes_url: https://github.com/cloudfoundry/staticfile-buildpack/releases/tag/v1.4.20
   availability: All Users
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/staticfile_buildpack-cached-v1.4.6+1508244563.zip
+- file: pivotal-buildpack-cached/staticfile_buildpack-cached-v1.4.20+1513179958.zip
   upload_as: Staticfile Buildpack (offline)
-  description: |-
-    * Add Dynatrace OneAgent integration to staticfile buildpack
-      (https://www.pivotaltracker.com/story/show/144856601)
+  description: |
+    * Warn about nginx/conf on root=="."
+      [#153059645]
 
-    * Add multiple buildpack support
-      (https://www.pivotaltracker.com/story/show/142852459)
+    * Add nginx 1.13.7, remove nginx 1.13.6
+      (https://www.pivotaltracker.com/story/show/153060280)
 
-
+    * Simplify build/test scripts to make tests easier to run
+      - Merge pull request #119 from rakrup/readlink_fix_for_mac
+      (https://www.pivotaltracker.com/story/show/151293706)
     Packaged binaries:
 
-    | name  | version | cf_stacks  |
-    |-------|---------|------------|
-    | nginx | 1.11.13 | cflinuxfs2 |
-    | nginx | 1.11.13 | opensuse42 |
-    | nginx | 1.11.13 | sle12      |
+    | name | version | cf_stacks |
+    |-|-|-|
+    | nginx | 1.13.7 | cflinuxfs2 |
+    | nginx | 1.13.7 | opensuse42 |
+    | nginx | 1.13.7 | sle12 |
 
     Default binary versions:
 
-    | name  | version |
-    |-------|---------|
-    | nginx | 1.11.13 |
-      * SHA256: 49378d4ff23bed421e9342e512cdb1d97c646aea784caa6f087a8414d857e652
+    | name | version |
+    |-|-|
+    | nginx | 1.13.7 |
+
+      * Uncached buildpack SHA256: 194c96684716ad0a8cf1cf171402a86f15bc072202ccfd395af58dd99d8947da
