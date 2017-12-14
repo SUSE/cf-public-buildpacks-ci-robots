@@ -8,7 +8,7 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/staticfile_buildpack-cached-v1.4.20+1513179958.zip
+- file: pivotal-buildpack-cached/staticfile_buildpack-cached-v1.4.20+1513246046.zip
   upload_as: Staticfile Buildpack (offline)
   description: |
     * Warn about nginx/conf on root=="."
@@ -34,4 +34,4 @@ product_files:
     |-|-|
     | nginx | 1.13.7 |
 
-      * Uncached buildpack SHA256: 194c96684716ad0a8cf1cf171402a86f15bc072202ccfd395af58dd99d8947da
+      * Uncached buildpack SHA256: 226154fc26aae3b006b869fd2b3305a8c04c90f43ef098dfa842cd387a36b8f7
