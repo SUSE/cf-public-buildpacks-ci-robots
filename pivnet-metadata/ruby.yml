@@ -8,7 +8,7 @@ release:
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.7.7+1513247820.zip
+- file: pivotal-buildpack-cached/ruby_buildpack-cached-v1.7.7+1516264596.zip
   upload_as: Ruby Buildpack (offline)
   description: |
     * Put APP/ld_library_path in LD_LIBRARY_PATH
@@ -23,17 +23,17 @@ product_files:
 
     | name | version | cf_stacks |
     |-|-|-|
-    | bundler | 1.15.4 | cflinuxfs2 |
-    | bundler | 1.15.4 | sle12 |
     | bundler | 1.15.4 | opensuse42 |
+    | bundler | 1.15.4 | sle12 |
+    | bundler | 1.15.4 | cflinuxfs2 |
     | jruby | ruby-1.9.3-jruby-1.7.26 | cflinuxfs2 |
     | jruby | ruby-2.0.0-jruby-1.7.26 | cflinuxfs2 |
+    | jruby | ruby-2.3.3-jruby-9.1.13.0 | sle12 |
     | jruby | ruby-2.3.3-jruby-9.1.13.0 | opensuse42 |
     | jruby | ruby-2.3.3-jruby-9.1.13.0 | cflinuxfs2 |
-    | jruby | ruby-2.3.4-jruby-9.1.13.0 | sle12 |
     | node | 4.8.6 | sle12 |
-    | node | 4.8.6 | cflinuxfs2 |
     | node | 4.8.6 | opensuse42 |
+    | node | 4.8.6 | cflinuxfs2 |
     | node | 6.12.0 | cflinuxfs2 |
     | node | 6.12.0 | sle12 |
     | node | 6.12.0 | opensuse42 |
@@ -77,4 +77,4 @@ product_files:
     |-|-|
     | ruby | 2.4.2 |
 
-      * Uncached buildpack SHA256: b72bfb9bcd496ede34e4e8c656914ba36c769c73ccf710b42871e03fa48c4a20
+      * Uncached buildpack SHA256: 1a0a561dd3e86147779b6c572b92d912bb353b774b8d666eedf4da7152249a94
