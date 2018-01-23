@@ -1,14 +1,14 @@
 ---
 release:
-  version: PHP 4.3.45
+  version: PHP 4.3.45.1
   release_type: Minor Release
   eula_slug: pivotal_software_eula
-  release_notes_url: https://github.com/cloudfoundry/php-buildpack/releases/tag/v4.3.45
+  release_notes_url: https://github.com/cloudfoundry/php-buildpack/releases/tag/v4.3.45.1
   availability: All Users
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/php_buildpack-cached-v4.3.45+1513245890.zip
+- file: pivotal-buildpack-cached/php_buildpack-cached-v4.3.45.1+1516723827.zip
   upload_as: PHP Buildpack (offline)
   description: |
     * Add composer 1.5.5, remove composer 1.5.2
@@ -73,4 +73,4 @@ product_files:
     | httpd    | 2.4.29    |
     | newrelic | 7.6.0.201 |
     | nginx    | 1.13.7    |
-      * Uncached buildpack SHA256: a136c4f57ca3b7e05327438cfc6739575afd33a9731aa521c4f6b64a89b6967a
+      * Uncached buildpack SHA256: d7c43f0200381e91e83f549f512a07ae312ba4f0c1058438aa10e95539d698a4
