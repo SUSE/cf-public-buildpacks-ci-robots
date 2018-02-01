@@ -102,3 +102,6 @@ godep:
 - version: v79
   sha256: 3dd2e6c4863077762498af98fa0c8dc5fedffbca6a5c0c4bb42b452c8268383d
   timestamp: 2018-01-26 23:15:38 UTC
+- version: v79
+  sha256: 3dd2e6c4863077762498af98fa0c8dc5fedffbca6a5c0c4bb42b452c8268383d
+  timestamp: 2018-02-01 05:04:56 UTC
