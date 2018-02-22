@@ -1,9 +1,4 @@
 ---
 node:
-<<<<<<< HEAD
-- version: 6.13.0
-  sha256: 021e38bd96926d0e43309b2544f2175136613cbf4e05535daf54b0190da45f34
-=======
 - version: 8.9.3
   sha256: 9efec12ae408f4e92738d9e5ab3c3fe68a407b7830228b0548ce9eef54cf63f9
->>>>>>> 856d8d4e4... Enqueue node - 8.9.3
