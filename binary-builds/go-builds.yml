@@ -1,2 +1,10 @@
 ---
-go: []
+go:
+- version: 1.10.1
+  sha256: 589449ff6c3ccbff1d391d4e7ab5bb5d5643a5a41a04c99315e55c16bbf73ddc
+- version: 1.10.2
+  sha256: 5911e751807eebbc1980dad4305ef5492b96d6cd720bf93cbcefa86e1c195f9e
+- version: 1.9.5
+  sha256: f1c2bb7f32bbd8fa7a19cc1608e0d06582df32ff5f0340967d83fb0017c49fbc
+- version: 1.9.6
+  sha256: 36f4059be658f7f07091e27fe04bb9e97a0c4836eb446e4c5bac3c90ff9e5828
