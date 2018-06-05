@@ -1,55 +1,64 @@
 ---
 release:
-  version: Go 1.8.14
+  version: Go 1.8.22.1
   release_type: Minor Release
   eula_slug: pivotal_software_eula
-  release_notes_url: https://github.com/cloudfoundry/go-buildpack/releases/tag/v1.8.14
+  release_notes_url: https://github.com/cloudfoundry/go-buildpack/releases/tag/v1.8.22.1
   availability: All Users
   eccn: 5D002
   license_exception: TSU
 product_files:
-- file: pivotal-buildpack-cached/go_buildpack-cached-v1.8.14+1513180631.zip
+- file: pivotal-buildpack-cached/go_buildpack-cached-v1.8.22.1+1527780149.zip
   upload_as: Go Buildpack (offline)
   description: |
-    * Add glide v0.13.1, remove glide v0.13.0
-      (https://www.pivotaltracker.com/story/show/152655941)
+    * Add go 1.9.6, remove go 1.9.4
+      (https://www.pivotaltracker.com/story/show/157260760)
+
+    * Add go 1.10.2, remove go 1.10
+      (https://www.pivotaltracker.com/story/show/157256879)
     Packaged binaries:
 
     | name | version | cf_stacks |
     |-|-|-|
-    | dep | v0.3.2 | cflinuxfs2 |
-    | dep | v0.3.2 | opensuse42 |
-    | dep | v0.3.2 | sle12 |
-    | glide | v0.13.1 | sle12 |
-    | glide | v0.13.1 | opensuse42 |
+    | dep | v0.4.1 | sle12 |
+    | dep | v0.4.1 | cflinuxfs2 |
+    | dep | v0.4.1 | opensuse42 |
     | glide | v0.13.1 | cflinuxfs2 |
-    | go | 1.6.3 | sle12 |
-    | go | 1.6.3 | opensuse42 |
+    | glide | v0.13.1 | opensuse42 |
+    | glide | v0.13.1 | sle12 |
     | go | 1.6.3 | cflinuxfs2 |
+    | go | 1.6.3 | opensuse42 |
+    | go | 1.6.3 | sle12 |
+    | go | 1.6.4 | opensuse42 |
     | go | 1.6.4 | sle12 |
     | go | 1.6.4 | cflinuxfs2 |
-    | go | 1.6.4 | opensuse42 |
     | go | 1.7.5 | sle12 |
-    | go | 1.7.5 | opensuse42 |
     | go | 1.7.5 | cflinuxfs2 |
-    | go | 1.7.6 | cflinuxfs2 |
+    | go | 1.7.5 | opensuse42 |
     | go | 1.7.6 | opensuse42 |
     | go | 1.7.6 | sle12 |
-    | go | 1.8.4 | sle12 |
-    | go | 1.8.4 | cflinuxfs2 |
-    | go | 1.8.4 | opensuse42 |
-    | go | 1.8.5 | sle12 |
-    | go | 1.8.5 | cflinuxfs2 |
-    | go | 1.8.5 | opensuse42 |
-    | go | 1.9.1 | cflinuxfs2 |
-    | go | 1.9.1 | opensuse42 |
-    | go | 1.9.1 | sle12 |
-    | go | 1.9.2 | cflinuxfs2 |
-    | go | 1.9.2 | sle12 |
-    | go | 1.9.2 | opensuse42 |
-    | godep | v79 | opensuse42 |
-    | godep | v79 | sle12 |
-    | godep | v79 | cflinuxfs2 |
+    | go | 1.7.6 | cflinuxfs2 |
+    | go | 1.8.6 | sle12 |
+    | go | 1.8.6 | cflinuxfs2 |
+    | go | 1.8.6 | opensuse42 |
+    | go | 1.8.7 | opensuse42 |
+    | go | 1.8.7 | sle12 |
+    | go | 1.8.7 | cflinuxfs2 |
+    | go | 1.9.5 | sle12 |
+    | go | 1.9.5 | cflinuxfs2 |
+    | go | 1.9.5 | opensuse42 |
+    | go | 1.9.6 | sle12 |
+    | go | 1.9.6 | opensuse42 |
+    | go | 1.9.6 | cflinuxfs2 |
+    | go | 1.10.1 | sle12 |
+    | go | 1.10.1 | opensuse42 |
+    | go | 1.10.1 | cflinuxfs2 |
+    | go | 1.10.2 | cflinuxfs2 |
+    | go | 1.10.2 | opensuse42 |
+    | go | 1.10.2 | sle12 |
+    | godep | v80 | opensuse42 |
+    | godep | v80 | cflinuxfs2 |
+    | godep | v80 | sle12 |
 
     Default binary versions:
 
@@ -57,4 +66,4 @@ product_files:
     |-|-|
     | go | 1.8.x |
 
-      * Uncached buildpack SHA256: c2f03c89d77edcc4bc500b04590cf5658fbece44e91e7059dcd0f4324bffe224
+      * Uncached buildpack SHA256: c0e8a2e667be624505abdb24c7a7b6df03e7e3a6e7af8092efe3fe43e703926d
